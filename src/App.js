@@ -1,8 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
+let name = "react";
 function App() {
   return (
+
+    <>
+      <Navbar title = "TextUtils" aboutText = "About TextUtils"/>
+      <div className="container">
+        <TextForm heading = "enter the text to analyze"/>
+      </div>
+    </>
+   
+  );
+}
+
+export default App;
+/*
+
+
+import logo from './logo.svg';
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +38,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+    */
