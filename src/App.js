@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 
-let name = "react";
+// let name = "react";
 function App() {
   return (
 
