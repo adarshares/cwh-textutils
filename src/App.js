@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 //import About from './components/About';
 import { useState } from 'react';
+import Alert from './components/Alert';
 
 // let name = "react";
 //#333942
@@ -24,6 +25,7 @@ function App() {
 
     <>
       <Navbar title = "TextUtils" mode = {mode} toggleMode = {toggleMode}/>
+      <Alert alert="this is alert"/>
       <div className="container">
         <TextForm heading = "enter the text to analyze" mode = {mode} />
         {/* <About/> */}
